@@ -8,4 +8,4 @@ Html,Css,Bootstrap,Javascript are used to build the project
 ### Software And Tools Required:
 Visual Studio
 
-Try this Project url: https://swapnilbamble1438.github.io/EcomProjectDemo/
+Try this Project url: https://swapnilbamble1438.github.io/EcommerceApplication/
