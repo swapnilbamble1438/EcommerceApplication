@@ -1,0 +1,25 @@
+
+.bd{
+		
+		  border: 1px solid;
+        border-radius: 12px;   
+}
+
+
+
+.mbd{
+	width: 700px;
+   height: auto;
+}
+
+.tp{
+   margin-left: 310px;
+}
+.pd{
+ margin-left: 315px;
+}
+ 
+.imgh {
+   width: 100%;
+   height: auto;
+ }

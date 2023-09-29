@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insert title here</title>
+<link rel="stylesheet" href = "Css/bootstrap.css">
+
+<link rel="stylesheet" href="Css/w3.css">
+<link rel="stylesheet" href="Css/abc.css">
+<link rel="stylesheet" href="Css/font.css">
+<link rel="stylesheet" href="Css/whitespace.css">
+
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+.a{
+	margin-right: 140px;
+	
+	}
+    
+    .b{
+	margin-right: 145px;
+	
+	}
+    
+    .z{
+	margin-right: 300px;
+	
+	}
+    
+    .d{
+	margin-right: 235px;
+	
+	}
+    
+    .e{
+	margin-right: 235px;
+	
+	}
+    
+    .f{
+	margin-right: 270px;
+	
+	}
+	
+	 .g{
+	margin-right: 210px;
+	
+	}
+    
+
+
+</style>
+
+
+
+</head>
+<body>
+
+
+	<div id="header"></div>
+
+<center>
+
+
+
+
+
+<div style="background-color: #ebe9eb">	
+	<br>
+	<h1>Payment Detils</h1>
+	<br>
+	</div>
+
+<br>
+
+<div class = "container border" style="background-color:white">
+                <br>
+                
+                <div class = "row" style="justify-content: center">
+
+                        <div class = "col-xl-2 col-lg-1 col-md-1" style="background-color:white">
+                            <br>
+                            <center>
+                                <img src="images/payimg.jpg" alt=Feedback height="270px">   
+                            </center><br>
+
+                        </div>
+                        <br>
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                        &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+
+                        <div class = "col-xl-2 col-lg-1 col-md-1" style="background-color: white">
+                            <center> 
+
+
+
+<h3 class = "ws">Fill below details to proceed</h3>
+<br>
+<b><div style="color:red" id="msg"></div></b>
+
+<br>
+<img src = "images/paymethod.png" height=100px width = 300px>
+<br>
+
+
+<h4 class = "a ws"><b>Name on Credit Card:</b></h4>
+<h2><input type ="text"  class = "c"  id="creditname"  required> </h2>
+
+<h4><b class = "b ws">Credit Card Number: </b></h4>
+<h2> <input type ="number"  class = "c" id="creditnumber"  required></h2>
+
+<h4><b class = "d ws">Select Card:</b></h4>
+
+	<select name="Credit Card Type" id="creditcard" class="c ws" required>
+				<option value="" disabled selected>Select Card</option>
+			    <option>Master Card</option>
+			    <option>Visa Card</option>
+			    <option>Discover</option>
+			    <option>Maestro</option>
+			    <option>American Express</option>
+	</select> 
+
+
+	<h4><b class = "e ws">Expiry Date:</b></h4>
+	<div class = "cc1">
+		<div class = "row ws">
+			<div class = "col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<select name="Month" class="cc2" id="creditmonth" required>
+
+							<option value="" disabled selected>Month</option>
+						    <option>January</option>
+						    <option>February</option>
+						    <option>March</option>
+						    <option>April</option>
+						    <option>May</option>
+						    <option>June</option>
+						    <option>July</option>
+						    <option>August</option>
+						    <option>September</option>
+						    <option>October</option>
+						    <option>November</option>
+						    <option>December</option>
+				</select>
+			</div>
+			
+			<div class = "col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<select name="Year" class="cc2" id="credityear" required>
+							<option value="" disabled selected>Year</option>
+							<% for(int i = 2015; i <= 2035; i ++)
+							{%>
+							    <option><%= i %></option>
+							    <%} %>
+				</select> 
+			</div>
+	
+		</div>
+	</div>
+
+
+<h4><b class ="f ws">CVV No.:</b></h4>
+<h2><input type ="number"  name = "cvvno" id="creditcvvno" class="c"  required></h2>
+
+
+<h4><b class = "g ws">Amount to be Paid:</b></h4>
+<div id="camount">
+
+</div>
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<h5><b class = "ws">
+	<button style='border: solid 1px ' onClick="cancelPay()" style='text-decoration: none'>Cancel Payment</button> &ensp;
+	<button style='border: solid 1px ' onClick="proceedPay()" style='text-decoration: none'>Proceed</button> 
+</b></h5>
+
+
+ </center> 
+                            <br>
+                            <br>                        
+                        </div>
+                    
+                </div>    
+                <br>
+            </div>   
+
+
+
+
+ <br>
+ <div id="footer" text-align: center;
+ padding: 3px;
+ background-color: DarkSalmon;
+ color: white;>
+ 
+ <div id="footerpage"></div>
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+
+
+<script src="header.js"></script>
+<script src="footer.js"></script>
+<script src="checkcustomer.js"></script>
+<script src="onlinepayment.js"></script>
+<script src="popncatncart.js"></script>
+<script src="deleteordermsg.js"></script>
+
+</body>
+</html>
