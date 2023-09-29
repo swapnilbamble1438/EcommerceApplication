@@ -1,9 +1,9 @@
-# EcommerceApp Demo
+# EcommerceApplication
 ## It is an Online Electronic Shopping Application. 
-### Its a Demo Version, for full version see https://github.com/swapnilbamble1438/EcommerceApp
+### Its a Javascript Version, for Springboot version see https://github.com/swapnilbamble1438/EcommerceApp
 
 ### Technology used in this Project: 
-Html,Css,Bootstrap,Javscript are used to build the project
+Html,Css,Bootstrap,Javascript are used to build the project
 
 ### Software And Tools Required:
 Visual Studio
