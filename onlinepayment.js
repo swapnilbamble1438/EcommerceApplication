@@ -8,6 +8,8 @@ for(let i = 2022;i <= 2040; i ++)
     `;
 }
 
+document.getElementById("credityear").innerHTML = html8;
+
 
 function cancelPay()
 {
