@@ -1,3 +1,14 @@
+
+let html8 = `<option value="" disabled selected>Year</option>`;
+
+for(let i = 2022;i <= 2040; i ++)
+{
+    html8 +=    `
+    <option>${i}</option>
+    `;
+}
+
+
 function cancelPay()
 {
     window.location.href= "index.html";
