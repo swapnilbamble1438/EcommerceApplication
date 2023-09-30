@@ -22,7 +22,7 @@ if(logincustomer != null)
   display: inline-block"><b style="color:white"><center><span id="ctotal"></span></center></b></span></b>
 	</b>	
 	
-	<a href="index.html" class="w3-bar-item w3-button"><b>Welcome <span id="cusname"></span></b></a>
+	<a href="index.html" class="w3-bar-item w3-button"><b style="color:firebrick">Welcome <span id="cusname"></span></b></a>
 	
 	<a href="orderslist.html" class="w3-bar-item w3-button"><b>Orders List</b></a>
 	
@@ -76,7 +76,7 @@ else if(loginadmin != null )
   display: inline-block"><b style="color:white"><center><span id="ctotal"></span></center></b></span></b>
 	</b>	
 	
-	<a href="index.html" class="w3-bar-item w3-button"><b>Welcome Admin</b></a>
+	<a href="index.html" class="w3-bar-item w3-button"><b style="color:firebrick">Welcome Admin</b></a>
 	
 	<a href="tablecustomers.html" class="w3-bar-item w3-button"><b>Manage Customers</b></a>
 	
