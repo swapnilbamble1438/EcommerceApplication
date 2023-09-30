@@ -24,6 +24,7 @@ let modal = `
 			
 					
 					<h1>It's a Javascript Version !</h1>
+                                        <h3>It is just for presentation.</h3>
 					<h3>For Java J2EE version of Application,</h3>
 					<h3> you can import it from here:<h3>
 					<h3><a href="https://github.com/swapnilbamble1438/EcommerceApp">Project Link</a></h3>
