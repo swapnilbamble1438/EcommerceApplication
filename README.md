@@ -1,4 +1,4 @@
-# EcommerceApplication
+# EcommerceApplication - Javascript
 
 ## It is a Javascript Application
 ## It is an Online Electronic Shopping Application. 
