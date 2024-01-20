@@ -14,4 +14,4 @@ Html,Css,Bootstrap,Javascript are used to build the project
 ### Software And Tools Required:
 Visual Studio
 
-### Its a Javascript Version, for Springboot version see https://github.com/swapnilbamble1438/EcommerceApp
+### Its a Javascript Version, for Java J2EE version see https://github.com/swapnilbamble1438/EcommerceApp
